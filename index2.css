@@ -1,0 +1,93 @@
+/* CSS Document */
+
+
+* {
+    margin: 0;
+    padding:0;
+  }
+
+body{
+	background: #262424;
+}
+
+.section {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: aliceblue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.section h1{
+	text-align: center;
+	font-size: 2rem;
+}
+
+#words{
+	font-size: 1.5em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: red;
+}
+
+ul{
+	display: block;
+	list-style-type: circle;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
+}
+
+ol{
+	display: block;
+	list-style-type: decimal;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
+}
+
+#box{
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-bottom: 100px;
+
+}
+
+#caption1{
+	text-align: center;
+	font-size: 2em;
+	color: blue;
+}
+
+#box2{
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-bottom: 100px;
+}
+
+#caption2{
+	text-align: center;
+	font-size: 2em;
+	color: blue;
+}
+#box3{
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-bottom: 100px;
+}
+#caption3{
+	text-align: center;
+	font-size: 2em;
+	color: blue;
+}
+
+footer {
+	background: black;
+	color: white;
+	text-align: center;
+}
+

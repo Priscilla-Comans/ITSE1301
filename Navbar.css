@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+/* STYLE SHEET FOR ALL 3 NAV BARS*/
+* {
+    margin: 0;
+    padding:0;
+  }
+.container a{
+    text-decoration: none;
+}
+
+/* Navbar */
+#navbar {
+  background:black;
+  color: white;
+  overflow: auto;
+  
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+  background:#2FD1BB;
+  color: black;
+}
+
